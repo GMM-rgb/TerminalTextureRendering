@@ -7,7 +7,6 @@
 			[
 				"C:/Users/6041464/Documents/TerminalTextureRendering/source/modules/texture_importing.cpp",
 				"C:/Users/6041464/Documents/TerminalTextureRendering/source/modules/texture_instance_generation.cpp",
-				"C:/Users/6041464/Documents/TerminalTextureRendering/source/modules/utility/declaration_checksum.cpp",
 				"C:/Users/6041464/Documents/TerminalTextureRendering/source/texture_core.cpp"
 			],
 			"recurse" : true

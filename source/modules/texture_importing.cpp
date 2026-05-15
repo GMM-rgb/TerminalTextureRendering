@@ -6,37 +6,40 @@
 #include <vector>
 #include <string>
 #include <regex>
+#include <math.h>
 
 namespace TexturePlainImporting {
     class FileImportOperation {
         private:
             
         public:
-            /// @property
-            char *FetchedFileContents;
-            /// @brief 
-            inline FileImportOperation() {
-                
-            }
+        /// @property
+        char *FetchedFileContents = nullptr;
+        /// @brief 
+        FileImportOperation(std::string TextureFilePathingURL) {
+            std::filesystem::current_path(std::filesystem::path(std::string("./")));
+        }
 
-            inline const bool isFileImported() {
-                const bool imported = this->FetchedFileContents != nullptr;
-                return (bool) 0;
-            }
+        const bool isFileImported() {
+            const bool imported = this->FetchedFileContents != nullptr;
+            return (bool) 0;
+        }
     };
 
     inline bool CheckFileURL() {
         const char FilePatternURL = \
         * (std::string::const_pointer(""));
         // std::to_string(*FilePatternURL);
-        return (bool)(0);
+        return ((bool)(0));
     }
 
     inline const auto ImportTextureFile(const std::string TextureFileLocation) {
         const bool isFileLocation = CheckFileURL();
-        std::cout << TYPE_VALID(isFileLocation, bool) << std::endl;
-        const auto ImportOperation = new FileImportOperation();
-        // ImportOperation->FetchedFileContents;
+        const auto ImportOperation = \
+        TYPE_VALID(isFileLocation, bool) ? \
+        new FileImportOperation(TextureFileLocation) : nullptr;
+        std::cout << "" << TYPE_VALID(isFileLocation, bool) << std::endl;
+        ImportOperation->FetchedFileContents;
         return nullptr;
     }
 }

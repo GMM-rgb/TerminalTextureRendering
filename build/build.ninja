@@ -65,14 +65,6 @@ build CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_gener
   OBJECT_FILE_DIR = CMakeFiles\TerminalTextRendering.dir\source\modules
   TARGET_SUPPORT_DIR = CMakeFiles\TerminalTextRendering.dir
 
-build CMakeFiles/TerminalTextRendering.dir/source/modules/utility/declaration_checksum.cpp.obj: CXX_COMPILER__TerminalTextRendering_unscanned_Debug C$:/Users/6041464/Documents/TerminalTextureRendering/source/modules/utility/declaration_checksum.cpp || cmake_object_order_depends_target_TerminalTextRendering
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\TerminalTextRendering.dir\source\modules\utility\declaration_checksum.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\TerminalTextRendering.dir
-  OBJECT_FILE_DIR = CMakeFiles\TerminalTextRendering.dir\source\modules\utility
-  TARGET_SUPPORT_DIR = CMakeFiles\TerminalTextRendering.dir
-
 build CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj: CXX_COMPILER__TerminalTextRendering_unscanned_Debug C$:/Users/6041464/Documents/TerminalTextureRendering/source/texture_core.cpp || cmake_object_order_depends_target_TerminalTextRendering
   CONFIG = Debug
   DEP_FILE = CMakeFiles\TerminalTextRendering.dir\source\texture_core.cpp.obj.d
@@ -89,7 +81,7 @@ build CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj: CXX_COMP
 #############################################
 # Link the static library libTerminalTextRendering.a
 
-build libTerminalTextRendering.a: CXX_STATIC_LIBRARY_LINKER__TerminalTextRendering_Debug CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.obj CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.obj CMakeFiles/TerminalTextRendering.dir/source/modules/utility/declaration_checksum.cpp.obj CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj
+build libTerminalTextRendering.a: CXX_STATIC_LIBRARY_LINKER__TerminalTextRendering_Debug CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.obj CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.obj CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\TerminalTextRendering.dir
