@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/6041464/Documents/CommandLineTextureRendering/build",
+  "command": "C:\\Users\\6041464\\gcc\\bin\\ccache-g++.exe -g -o CMakeFiles\\TerminalTextRendering.dir\\source\\modules\\texture_importing.cpp.obj -c C:\\Users\\6041464\\Documents\\CommandLineTextureRendering\\source\\modules\\texture_importing.cpp",
+  "file": "C:/Users/6041464/Documents/CommandLineTextureRendering/source/modules/texture_importing.cpp",
+  "output": "C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.obj"
+},
+{
+  "directory": "C:/Users/6041464/Documents/CommandLineTextureRendering/build",
+  "command": "C:\\Users\\6041464\\gcc\\bin\\ccache-g++.exe -g -o CMakeFiles\\TerminalTextRendering.dir\\source\\modules\\texture_instance_generation.cpp.obj -c C:\\Users\\6041464\\Documents\\CommandLineTextureRendering\\source\\modules\\texture_instance_generation.cpp",
+  "file": "C:/Users/6041464/Documents/CommandLineTextureRendering/source/modules/texture_instance_generation.cpp",
+  "output": "C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.obj"
+},
+{
+  "directory": "C:/Users/6041464/Documents/CommandLineTextureRendering/build",
+  "command": "C:\\Users\\6041464\\gcc\\bin\\ccache-g++.exe -g -o CMakeFiles\\TerminalTextRendering.dir\\source\\texture_core.cpp.obj -c C:\\Users\\6041464\\Documents\\CommandLineTextureRendering\\source\\texture_core.cpp",
+  "file": "C:/Users/6041464/Documents/CommandLineTextureRendering/source/texture_core.cpp",
+  "output": "C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj"
+}
+]

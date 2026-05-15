@@ -1,0 +1,14 @@
+# ninja log v7
+9	36	8005673034520539	C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/cmake.verify_globs	5cab171677633ca0
+33	848	8005672343335295	CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.obj	24638a45648e18ec
+40	760	8005673034688511	CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.obj	8d8880b797ab9bf1
+44	99	8005673034838058	CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj	ac78afb351d614fb
+760	819	8005673042018684	libTerminalTextRendering.a	ff828be3da485eea
+12	39	8005673376368026	C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/cmake.verify_globs	5cab171677633ca0
+10	33	8005673573471296	C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/cmake.verify_globs	5cab171677633ca0
+37	1051	8005673573736525	CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj	ac78afb351d614fb
+1052	1114	8005673583881896	libTerminalTextRendering.a	ff828be3da485eea
+15	38	8005674456639969	C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/cmake.verify_globs	5cab171677633ca0
+41	763	8005674456784822	CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.obj	8d8880b797ab9bf1
+45	1102	8005674456929828	CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj	ac78afb351d614fb
+1102	1170	8005674467454058	libTerminalTextRendering.a	ff828be3da485eea

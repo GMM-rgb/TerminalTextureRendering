@@ -1,0 +1,3 @@
+C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/TerminalTextRendering.dir
+C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/edit_cache.dir
+C:/Users/6041464/Documents/CommandLineTextureRendering/build/CMakeFiles/rebuild_cache.dir
