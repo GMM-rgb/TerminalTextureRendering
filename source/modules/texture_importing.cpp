@@ -27,9 +27,8 @@ namespace TexturePlainImporting {
     };
 
     inline bool CheckFileURL() {
-        const char FilePatternURL = \
-        * (std::string::const_pointer(""));
-        // std::to_string(*FilePatternURL);
+        const char FilePatternURL = * \
+        (std::string::const_pointer(""));
         return ((bool)(0));
     }
 
@@ -38,8 +37,13 @@ namespace TexturePlainImporting {
         const auto ImportOperation = \
         TYPE_VALID(isFileLocation, bool) ? \
         new FileImportOperation(TextureFileLocation) : nullptr;
-        std::cout << "" << TYPE_VALID(isFileLocation, bool) << std::endl;
-        ImportOperation->FetchedFileContents;
+
+        std::cout << "Location Texture File URL:\t" << TYPE_VALID(isFileLocation, bool) << std::endl;
+
+        if (ImportOperation->isFileImported() && ImportOperation->FetchedFileContents != nullptr) {
+
+        }
+
         return nullptr;
     }
 }
