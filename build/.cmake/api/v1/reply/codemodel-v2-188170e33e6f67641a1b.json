@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TerminalTextRendering::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TerminalTextRendering-Debug-d918cbae8b7905a5a438.json",
+					"jsonFile" : "target-TerminalTextRendering-Debug-d514032802a2d2d1b044.json",
 					"name" : "TerminalTextRendering",
 					"projectIndex" : 0
 				}
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/6041464/Documents/CommandLineTextureRendering/build",
-		"source" : "C:/Users/6041464/Documents/CommandLineTextureRendering"
+		"build" : "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+		"source" : "C:/Users/6041464/Documents/TerminalTextureRendering"
 	},
 	"version" : 
 	{
