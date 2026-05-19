@@ -1,13 +1,14 @@
-namespace TexturePlainImporting
-{
-    class FileImportOperation
-    {
-    private:
-    public:
+namespace TexturePlainImporting {
+    class FileImportOperation {
+        private:
+        
+        public:
         char *FetchedFileContents;
-        FileImportOperation(std::string TextureFilePathingURL);
+        /// @brief 
+        /// @param TextureFilePathingURL 
+        FileImportOperation(const std::string *TextureFilePathingURL);
         /// @brief
         /// @return
         const bool isFileImported();
     };
-}
+} // namespace TexturePlainImporting

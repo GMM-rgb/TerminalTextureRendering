@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "TerminalTextureRendering",
+					"name" : "TerminalTextureRendering.dir",
 					"targetIndexes" : 
 					[
 						0
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TerminalTextRendering::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TerminalTextRendering-Debug-69a31a34a2574b655bce.json",
+					"jsonFile" : "target-TerminalTextRendering-Debug-b1fa3d528dbf35731c80.json",
 					"name" : "TerminalTextRendering",
 					"projectIndex" : 0
 				}
