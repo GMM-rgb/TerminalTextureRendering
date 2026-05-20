@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project("TerminalTextureRendering" LANGUAGES "CXX")
+project("TerminalTextureRendering" LANGUAGES "CXX" "ASM")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -10,6 +10,7 @@ set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/source")
 file(GLOB_RECURSE TEXTURE_GENERATION_SOURCES
     CONFIGURE_DEPENDS
     "${SRC_DIR}/*.cpp"
+    "${SRC_DIR}/*.s"
 )
 
 if(TEXTURE_GENERATION_SOURCES)
@@ -24,6 +25,8 @@ add_library("TerminalTextRendering" STATIC
     ${TEXTURE_GENERATION_SOURCES}
     source/headers/TEXTURE_IMPORTS.hpp
     source/headers/CHECKSUM_TYPES.hpp
+    source/modules/execution_managment.cpp
+    source/headers/THREAD_EXECUTION.hpp
 )
 
 target_include_directories("TerminalTextRendering" PUBLIC

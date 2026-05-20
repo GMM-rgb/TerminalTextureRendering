@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "MacOS",
+            "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -10,8 +10,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "/usr/bin/clang++",
-            "intelliSenseMode": "macos-gcc-arm64",
+            "compilerPath": "C:\\Users\\6041464\\C_Compiler\bin\\c++.exe",
+            "intelliSenseMode": "windows-clang-x64",
             "cppStandard": "c++26",
             "cStandard": "c23",
             "recursiveIncludes": {

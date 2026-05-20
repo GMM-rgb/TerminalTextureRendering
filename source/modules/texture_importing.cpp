@@ -1,6 +1,6 @@
 /// @include Project Internals
 #include "./../headers/CHECKSUM_TYPES.hpp"
-#include "./../headers/hcp.hpp"
+#include "./../headers/global/hcp.hpp"
 /// @include Core Internals & Externals
 #include <fstream>
 #include <filesystem>
@@ -9,8 +9,6 @@
 #include <string>
 #include <vector>
 #include <regex>
-/// @include
-#include <bootstrap.h>
 // #include <sandbox.h>
 #include <math.h>
 /// @typedef
@@ -31,7 +29,7 @@ namespace TexturePlainImporting {
             std::cout << "Texture File Found:\t" << std::string::const_pointer(TextureFilePathValid) << std::endl;
             const auto DestinationCorrectionReference = std::regex("/./", regex_constants::icase && regex_constants::grep);
             const auto CorrectionLocaleReference = DestinationCorrectionReference.getloc().global(locale::classic());
-            boolean_t FileDestinationCorrection = regex_search(string::pointer(TextureFileURL), DestinationCorrectionReference);
+            const bool FileDestinationCorrection = regex_search(string::pointer(TextureFileURL), DestinationCorrectionReference);
         }
     }
 

@@ -1,26 +1,38 @@
 [
 {
-  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
-  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_importing.cpp",
-  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_importing.cpp",
-  "output": "CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.o"
+  "directory": "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+  "command": "C:\\Users\\6041464\\C_Compiler\\bin\\g++.exe -IC:/Users/6041464/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -o CMakeFiles\\TerminalTextRendering.dir\\source\\modules\\execution_managment.cpp.obj -c C:\\Users\\6041464\\Documents\\TerminalTextureRendering\\source\\modules\\execution_managment.cpp",
+  "file": "C:/Users/6041464/Documents/TerminalTextureRendering/source/modules/execution_managment.cpp",
+  "output": "C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/modules/execution_managment.cpp.obj"
 },
 {
-  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
-  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_instance_generation.cpp",
-  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_instance_generation.cpp",
-  "output": "CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.o"
+  "directory": "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+  "command": "C:\\Users\\6041464\\C_Compiler\\bin\\g++.exe -IC:/Users/6041464/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -o CMakeFiles\\TerminalTextRendering.dir\\source\\modules\\texture_importing.cpp.obj -c C:\\Users\\6041464\\Documents\\TerminalTextureRendering\\source\\modules\\texture_importing.cpp",
+  "file": "C:/Users/6041464/Documents/TerminalTextureRendering/source/modules/texture_importing.cpp",
+  "output": "C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.obj"
 },
 {
-  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
-  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/source/texture_core.cpp",
-  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/source/texture_core.cpp",
-  "output": "CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.o"
+  "directory": "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+  "command": "C:\\Users\\6041464\\C_Compiler\\bin\\g++.exe -IC:/Users/6041464/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -o CMakeFiles\\TerminalTextRendering.dir\\source\\modules\\texture_instance_generation.cpp.obj -c C:\\Users\\6041464\\Documents\\TerminalTextureRendering\\source\\modules\\texture_instance_generation.cpp",
+  "file": "C:/Users/6041464/Documents/TerminalTextureRendering/source/modules/texture_instance_generation.cpp",
+  "output": "C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.obj"
 },
 {
-  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
-  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering_Test.dir/test.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/test.cpp",
-  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/test.cpp",
-  "output": "CMakeFiles/TerminalTextRendering_Test.dir/test.cpp.o"
+  "directory": "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+  "command": "C:\\Users\\6041464\\C_Compiler\\bin\\gcc.exe -IC:/Users/6041464/Documents/TerminalTextureRendering/source/headers -g -o CMakeFiles\\TerminalTextRendering.dir\\source\\terminal_overwrite.s.obj -c C:\\Users\\6041464\\Documents\\TerminalTextureRendering\\source\\terminal_overwrite.s",
+  "file": "C:/Users/6041464/Documents/TerminalTextureRendering/source/terminal_overwrite.s",
+  "output": "C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/terminal_overwrite.s.obj"
+},
+{
+  "directory": "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+  "command": "C:\\Users\\6041464\\C_Compiler\\bin\\g++.exe -IC:/Users/6041464/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -o CMakeFiles\\TerminalTextRendering.dir\\source\\texture_core.cpp.obj -c C:\\Users\\6041464\\Documents\\TerminalTextureRendering\\source\\texture_core.cpp",
+  "file": "C:/Users/6041464/Documents/TerminalTextureRendering/source/texture_core.cpp",
+  "output": "C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.obj"
+},
+{
+  "directory": "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+  "command": "C:\\Users\\6041464\\C_Compiler\\bin\\g++.exe -IC:/Users/6041464/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -o CMakeFiles\\TerminalTextRendering_Test.dir\\test.cpp.obj -c C:\\Users\\6041464\\Documents\\TerminalTextureRendering\\test.cpp",
+  "file": "C:/Users/6041464/Documents/TerminalTextureRendering/test.cpp",
+  "output": "C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering_Test.dir/test.cpp.obj"
 }
 ]

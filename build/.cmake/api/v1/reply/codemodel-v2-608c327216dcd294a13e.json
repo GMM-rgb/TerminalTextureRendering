@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TerminalTextureRendering",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TerminalTextRendering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TerminalTextRendering-Debug-96f0d117c45edd082a34.json",
+					"name" : "TerminalTextRendering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TerminalTextRendering_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TerminalTextRendering_Test-Debug-e78b45438b751c3ca799.json",
+					"name" : "TerminalTextRendering_Test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/6041464/Documents/TerminalTextureRendering/build",
+		"source" : "C:/Users/6041464/Documents/TerminalTextureRendering"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}
