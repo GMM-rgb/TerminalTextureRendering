@@ -13,15 +13,22 @@
 #include <math.h>
 
 using namespace std;
+using namespace std::literals;
 using namespace std::filesystem;
 
 namespace TexturePlainImporting {
     FileImportOperation::FileImportOperation(const std::string *TextureFileURL) {
         if (TextureFileURL != nullptr && TYPE_VALID(TextureFileURL, std::string)) {
-            const filesystem::path ComposedFilePath = "/";
-            // filesystem::exists();
+            const filesystem::path ComposedFilePath = string::pointer(TextureFileURL->data());
+            const bool TextureFilePathValid = is_directory(ComposedFilePath) ? true : false;
+            
         }
     }
+
+    // FileImportOperation::CorrectImportDirectory() {
+
+    //     return;
+    // }
 
     inline bool CheckFileURL() {
         const char FilePatternURL = *(std::string::const_pointer(""));

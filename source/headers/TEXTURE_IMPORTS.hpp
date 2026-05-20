@@ -10,5 +10,6 @@ namespace TexturePlainImporting {
         /// @brief
         /// @return
         const bool isFileImported();
+        // const std::optional<std::filesystem::path> CorrectImportDirectory();
     };
 } // namespace TexturePlainImporting

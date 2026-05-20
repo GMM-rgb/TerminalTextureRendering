@@ -7,24 +7,24 @@
 
 # =============================================================================
 # Project: TerminalTextureRendering.dir
-# Configurations: Debug
+# Configurations: 
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__TerminalTextRendering_unscanned_Debug
+rule CXX_COMPILER__TerminalTextRendering_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\6041464\_C_\bin\ccache-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\6041464\_C_\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER__TerminalTextRendering_Debug
+rule CXX_STATIC_LIBRARY_LINKER__TerminalTextRendering_
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\6041464\_C_\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\6041464\_C_\bin\ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\6041464\_C_\bin\ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
