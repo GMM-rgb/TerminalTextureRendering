@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
+  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_importing.cpp",
+  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_importing.cpp",
+  "output": "CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.o"
+},
+{
+  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
+  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_instance_generation.cpp",
+  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/source/modules/texture_instance_generation.cpp",
+  "output": "CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.o"
+},
+{
+  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
+  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/source/texture_core.cpp",
+  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/source/texture_core.cpp",
+  "output": "CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.o"
+},
+{
+  "directory": "/Users/maximus.farvour/Documents/TerminalTextureRendering/build",
+  "command": "/usr/bin/clang++  -I/Users/maximus.farvour/Documents/TerminalTextureRendering/source/headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/TerminalTextRendering_Test.dir/test.cpp.o -c /Users/maximus.farvour/Documents/TerminalTextureRendering/test.cpp",
+  "file": "/Users/maximus.farvour/Documents/TerminalTextureRendering/test.cpp",
+  "output": "CMakeFiles/TerminalTextRendering_Test.dir/test.cpp.o"
+}
+]

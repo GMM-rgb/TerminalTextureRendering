@@ -1,13 +1,16 @@
-#include "./source/headers/CHECKSUM_TYPES.hpp"
-#include "./source/headers/TEXTURE_IMPORTS.hpp"
-
+/// @include
+#include "./source/headers/hcp.hpp"
+/// @include
 #include <iostream>
 #include <string>
+
+using namespace std;
+using namespace TexturePlainImporting;
 
 int main() {
     std::string *ExitInput = nullptr;
 
-    new TexturePlainImporting::FileImportOperation("/");
+    // new TexturePlainImporting::FileImportOperation();
 
     do {
         std::cin >> *ExitInput;

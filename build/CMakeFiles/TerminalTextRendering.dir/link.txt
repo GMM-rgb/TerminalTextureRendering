@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTerminalTextRendering.a CMakeFiles/TerminalTextRendering.dir/source/modules/texture_importing.cpp.o CMakeFiles/TerminalTextRendering.dir/source/modules/texture_instance_generation.cpp.o CMakeFiles/TerminalTextRendering.dir/source/texture_core.cpp.o
+/usr/bin/ranlib libTerminalTextRendering.a

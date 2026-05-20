@@ -1,3 +1,4 @@
-C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir
-C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/edit_cache.dir
-C:/Users/6041464/Documents/TerminalTextureRendering/build/CMakeFiles/rebuild_cache.dir
+/Users/maximus.farvour/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering.dir
+/Users/maximus.farvour/Documents/TerminalTextureRendering/build/CMakeFiles/TerminalTextRendering_Test.dir
+/Users/maximus.farvour/Documents/TerminalTextureRendering/build/CMakeFiles/edit_cache.dir
+/Users/maximus.farvour/Documents/TerminalTextureRendering/build/CMakeFiles/rebuild_cache.dir

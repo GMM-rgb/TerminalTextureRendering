@@ -1,3 +1,8 @@
+#pragma once
+
+/**
+ * @namespace `TexturePlainImporting`
+*/
 namespace TexturePlainImporting {
     class FileImportOperation {
         private:
@@ -6,10 +11,10 @@ namespace TexturePlainImporting {
         char *FetchedFileContents;
         /// @brief 
         /// @param TextureFilePathingURL 
-        FileImportOperation(const std::string *TextureFilePathingURL);
+        FileImportOperation(std::string *TextureFilePathingURL);
         /// @brief
         /// @return
         const bool isFileImported();
         // const std::optional<std::filesystem::path> CorrectImportDirectory();
     };
-} // namespace TexturePlainImporting
+} /// namespace TexturePlainImporting
