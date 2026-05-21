@@ -1,0 +1,31 @@
+{
+    "buildOptions": {
+        "verbose":          true,
+        "traceResolution":  true,
+        "force":            true,
+        "dry":              true,
+    },
+    "compilerOptions": {
+        "noLib":            false,
+        "libReplacement":   true,
+        "traceResolution":  true,
+        "alwaysStrict":     true,
+        "diagnostics":      true,
+        "sourceMap":        true,
+        "allowJs":          false,
+        "checkJs":          null,
+        "target":           "es2022",
+        "moduleResolution": "node16",
+        "module":           "node20",
+        "rootDir":          "./typescript/",
+        "outDir":           "./tools/build/",
+        "types":            ["./node_modules/@types/node/"],
+        "lib":              ["ES2022"],
+    },
+    "ts-node": {
+        "compiler": "typescript",
+    },
+    "exclude": [
+        "build/",
+    ],
+}

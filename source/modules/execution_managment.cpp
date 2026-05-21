@@ -7,7 +7,7 @@ namespace TaskManagmentThreading {
 
     }
 
-    const optional<int> ThreadInstancingOperation::InitializeThread() {
+    // const optional<int> ThreadInstancingOperation::InitializeThread() {
 
-    }
+    // }
 }
